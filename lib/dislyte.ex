@@ -18,6 +18,10 @@ defmodule Dislyte do
 
   @doc """
   print welcome info
+
+  ## Examples
+      iex> Dislyte.welcome("max")
+      welcome max
   """
   @spec welcome(String.t()) :: String.t()
   def welcome(name) do
