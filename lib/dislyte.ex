@@ -15,4 +15,12 @@ defmodule Dislyte do
   def hello do
     :world
   end
+
+  @doc """
+  print welcome info
+  """
+  @spec welcome(string()) :: string()
+  def welcome(name) do
+    IO.inspect "welcome" <> name
+  end
 end

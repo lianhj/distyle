@@ -27,4 +27,11 @@ dislyte-*.tar
 
 dislyte.iml
 
+/doc
+
+/_build
+
+/deps
+
+
 
