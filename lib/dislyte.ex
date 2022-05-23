@@ -19,8 +19,8 @@ defmodule Dislyte do
   @doc """
   print welcome info
   """
-  @spec welcome(string()) :: string()
+  @spec welcome(String.t()) :: String.t()
   def welcome(name) do
-    IO.inspect "welcome" <> name
+    IO.inspect("welcome" <> name)
   end
 end
